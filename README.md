@@ -1,6 +1,6 @@
 # URL Shortener
 
-This project is a fullstack application that combines a React frontend and a Golang backend. It offers a user interface for shortening URLs and a backend server that handles the generation, storage, and redirection of shortened URLs.
+This project is a fullstack application that combines a **React** frontend and a **Golang** backend. It offers a user interface for shortening URLs and a backend server that handles the generation, storage, and redirection of shortened URLs.
 
 ## Table of Contents
 
