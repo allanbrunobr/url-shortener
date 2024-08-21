@@ -50,36 +50,36 @@ The **url-shortener** is a URL shortening application that allows users to short
    git clone https://github.com/allanbrunobr/url-shortener.git
    cd url-shortener/backend
 
-2. **Instale as dependências:**
+2. **Install dependencies:**
    ```bash
    go mod tidy
 
-3. **Inicie o servidor:**
+3. **Start the server:**
    
-   Certifique-se de que o MongoDB esteja em execução e, em seguida, execute:
-   ```bash
+Make sure MongoDB is running, then execute:
+```bash
    go run main.go
-   ```
-O backend estará rodando em http://localhost:8080.
+```
+The backend will be running at http://localhost:8080.
 
 
 ### Configuração do Frontend
 
-1. **Navegue até o diretório do frontend:**
+1. **Navigate to the frontend directory:**
 
    ```bash
    cd ../front
    ```
-2. **Instale as dependências:**
+2. **Install dependencies:**
    ```bash
    npm install
    ```
-3. **Inicie o servidor de desenvolvimento:**
+3. **Start the development server:**
    ```bash
    npm start
    ```
    
-O frontend estará acessível em http://localhost:3000.
+The frontend will be accessible at http://localhost:3000.
 
 ## How to Use
 1. Access the user interface at http://localhost:3000.
