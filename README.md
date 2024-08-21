@@ -1,4 +1,4 @@
-# My Project
+# URL Shortener
 
 Este projeto é uma aplicação fullstack que combina um frontend em React e um backend em Golang. Ele oferece uma interface de usuário para encurtar URLs e um servidor backend que lida com a geração, armazenamento e redirecionamento de URLs encurtadas.
 
@@ -18,7 +18,7 @@ Este projeto é uma aplicação fullstack que combina um frontend em React e um 
 
 ## Sobre o Projeto
 
-O **My Project** é uma aplicação de encurtamento de URLs que permite aos usuários encurtar URLs longas e personalizar o slug da URL encurtada. O frontend oferece uma interface intuitiva para os usuários interagirem com o serviço, enquanto o backend em Golang gerencia a lógica de encurtamento e redirecionamento de URLs.
+O **url-shortener** é uma aplicação de encurtamento de URLs que permite aos usuários encurtar URLs longas e personalizar o slug da URL encurtada. O frontend oferece uma interface intuitiva para os usuários interagirem com o serviço, enquanto o backend em Golang gerencia a lógica de encurtamento e redirecionamento de URLs.
 
 ## Tecnologias Utilizadas
 
@@ -47,8 +47,8 @@ O **My Project** é uma aplicação de encurtamento de URLs que permite aos usu�
 1. **Clone o repositório e navegue até o diretório do backend:**
 
    ```bash
-   git clone https://github.com/username/my-project.git
-   cd my-project/back
+   git clone https://github.com/allanbrunobr/url-shortener.git
+   cd url-shortener/back
 
 2. **Instale as dependências:**
    ```bash
@@ -59,7 +59,7 @@ O **My Project** é uma aplicação de encurtamento de URLs que permite aos usu�
    Certifique-se de que o MongoDB esteja em execução e, em seguida, execute:
    ```bash
    go run main.go
-
+   ```
 O backend estará rodando em http://localhost:8080.
 
 
@@ -69,14 +69,15 @@ O backend estará rodando em http://localhost:8080.
 
    ```bash
    cd ../front
-
+   ```
 2. **Instale as dependências:**
    ```bash
    npm install
-
+   ```
 3. **Inicie o servidor de desenvolvimento:**
    ```bash
    npm start
+   ```
    
 O frontend estará acessível em http://localhost:3000.
 
@@ -99,10 +100,19 @@ O frontend estará acessível em http://localhost:3000.
      ├── src/                # Código-fonte do React
      ├── public/             # Arquivos estáticos públicos
      └── ...                 # Outros arquivos do frontend
-
+```
 ## Contribuindo
+1. Faça um fork do projeto
+2. Crie uma branch para a sua feature (git checkout -b feature/nova-feature)
+3. Faça o commit das suas alterações (git commit -m 'Adiciona nova feature')
+4. Envie o código para a sua branch (git push origin feature/nova-feature)
+5. Abra um Pull Request
 
 ## License
+Distribuído sob a licença MIT. Veja LICENSE para mais informações.
 
 ## Contact
+Allan Bruno - allanbruno@gmail.com
+
+Link do Projeto: https://github.com/allanbrunobr/url-shortener
 
