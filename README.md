@@ -72,10 +72,27 @@ O backend estará rodando em http://localhost:8080.
 
 2. **Instale as dependências:**
    ```bash
-   go mod tidy
+   npm install
 
-3. **Inicie o servidor:**
-   Certifique-se de que o MongoDB esteja em execução e, em seguida, execute:
+3. **Inicie o servidor de desenvolvimento:**
    ```bash
-   go run main.go
-   O backend estará rodando em http://localhost:8080.
+   npm start
+   
+O frontend estará acessível em http://localhost:3000.
+
+## How to Use
+1.  Acesse a interface do usuário em http://localhost:3000.
+2.  Insira a URL que você deseja encurtar.
+3.  Opcionalmente, insira um slug personalizado para a URL.
+4.  Clique em "Shorten URL" para gerar a URL encurtada.
+5.  Clique no link encurtado para ser redirecionado à URL original.
+
+## Estrutura de Pastas
+
+## Contribuindo
+
+## License
+
+
+## Contact
+
