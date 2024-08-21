@@ -89,10 +89,20 @@ O frontend estará acessível em http://localhost:3000.
 
 ## Estrutura de Pastas
 
+ ```plaintext
+ url-shortener/
+ ├── backend/                   # Código do backend em Golang
+ │   ├── main.go             # Ponto de entrada do backend
+ │   ├── models/             # Modelos de dados para o MongoDB
+ │   └── ...                 # Outros arquivos do backend
+ └── frontend/                  # Código do frontend em React
+     ├── src/                # Código-fonte do React
+     ├── public/             # Arquivos estáticos públicos
+     └── ...                 # Outros arquivos do frontend
+
 ## Contribuindo
 
 ## License
-
 
 ## Contact
 
