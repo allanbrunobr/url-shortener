@@ -49,9 +49,33 @@ O **My Project** é uma aplicação de encurtamento de URLs que permite aos usu�
    ```bash
    git clone https://github.com/username/my-project.git
    cd my-project/back
-   Instale as dependências:
 
 2. **Instale as dependências:**
    ```bash
    go mod tidy
 
+3. **Inicie o servidor:**
+   
+   Certifique-se de que o MongoDB esteja em execução e, em seguida, execute:
+   ```bash
+   go run main.go
+
+O backend estará rodando em http://localhost:8080.
+
+
+### Configuração do Frontend
+
+1. **Navegue até o diretório do frontend:**
+
+   ```bash
+   cd ../front
+
+2. **Instale as dependências:**
+   ```bash
+   go mod tidy
+
+3. **Inicie o servidor:**
+   Certifique-se de que o MongoDB esteja em execução e, em seguida, execute:
+   ```bash
+   go run main.go
+   O backend estará rodando em http://localhost:8080.
