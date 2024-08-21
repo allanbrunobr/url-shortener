@@ -1,26 +1,26 @@
 # URL Shortener
 
-Este projeto é uma aplicação fullstack que combina um frontend em React e um backend em Golang. Ele oferece uma interface de usuário para encurtar URLs e um servidor backend que lida com a geração, armazenamento e redirecionamento de URLs encurtadas.
+This project is a fullstack application that combines a React frontend and a Golang backend. It offers a user interface for shortening URLs and a backend server that handles the generation, storage, and redirection of shortened URLs.
 
-## Índice
+## Table of Contents
 
-1. [Sobre o Projeto](#sobre-o-projeto)
-2. [Tecnologias Utilizadas](#tecnologias-utilizadas)
-3. [Instalação e Configuração](#instalação-e-configuração)
-   - [Pré-requisitos](#pré-requisitos)
-   - [Configuração do Backend](#configuração-do-backend)
-   - [Configuração do Frontend](#configuração-do-frontend)
-4. [Como Usar](#como-usar)
-5. [Estrutura de Pastas](#estrutura-de-pastas)
-6. [Contribuindo](#contribuindo)
-7. [Licença](#licença)
-8. [Contato](#contato)
+1. [About the Project](#about-the-project)
+2. [Technologies Used](#technologies-used)
+3. [Installation and Setup](#installation-and-setup)
+   - [Prerequisites](#prerequisites)
+   - [Backend Setup](#backend-setup)
+   - [Frontend Setup](#frontend-setup)
+4. [How to Use](#how-to-use)
+5. [Folder Structure](#folder-structure)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
-## Sobre o Projeto
+## About the Project
 
-O **url-shortener** é uma aplicação de encurtamento de URLs que permite aos usuários encurtar URLs longas e personalizar o slug da URL encurtada. O frontend oferece uma interface intuitiva para os usuários interagirem com o serviço, enquanto o backend em Golang gerencia a lógica de encurtamento e redirecionamento de URLs.
+The **url-shortener** is a URL shortening application that allows users to shorten long URLs and customize the slug of the shortened URL. The frontend provides an intuitive interface for users to interact with the service, while the Golang backend manages the logic for shortening and redirecting URLs.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - **Frontend:**
   - [React](https://reactjs.org/)
@@ -34,21 +34,21 @@ O **url-shortener** é uma aplicação de encurtamento de URLs que permite aos u
   - [Gorilla Mux](https://github.com/gorilla/mux)
   - [Go Modules](https://blog.golang.org/using-go-modules)
 
-## Instalação e Configuração
+## Installation and Setup
 
-### Pré-requisitos
+### Prerequisites
 
-- **Node.js** e **npm** (para o frontend)
-- **Golang** (para o backend)
-- **MongoDB** (para armazenamento de URLs)
+- **Node.js** and **npm** (for the frontend)
+- **Golang** (for the backend)
+- **MongoDB** (for URL storage)
 
-### Configuração do Backend
+### Backend Setup
 
-1. **Clone o repositório e navegue até o diretório do backend:**
+1. **Clone the repository and navigate to the backend directory:**
 
    ```bash
    git clone https://github.com/allanbrunobr/url-shortener.git
-   cd url-shortener/back
+   cd url-shortener/backend
 
 2. **Instale as dependências:**
    ```bash
@@ -82,37 +82,38 @@ O backend estará rodando em http://localhost:8080.
 O frontend estará acessível em http://localhost:3000.
 
 ## How to Use
-1.  Acesse a interface do usuário em http://localhost:3000.
-2.  Insira a URL que você deseja encurtar.
-3.  Opcionalmente, insira um slug personalizado para a URL.
-4.  Clique em "Shorten URL" para gerar a URL encurtada.
-5.  Clique no link encurtado para ser redirecionado à URL original.
+1. Access the user interface at http://localhost:3000.
+2. Enter the URL you want to shorten.
+3. Optionally, enter a custom slug for the URL.
+4. Click "Shorten URL" to generate the shortened URL.
+5. Click the shortened link to be redirected to the original URL.
 
 ## Estrutura de Pastas
 
  ```plaintext
  url-shortener/
- ├── backend/                   # Código do backend em Golang
- │   ├── main.go             # Ponto de entrada do backend
- │   ├── models/             # Modelos de dados para o MongoDB
- │   └── ...                 # Outros arquivos do backend
- └── frontend/                  # Código do frontend em React
-     ├── src/                # Código-fonte do React
-     ├── public/             # Arquivos estáticos públicos
-     └── ...                 # Outros arquivos do frontend
+├── backend/                   # Backend code in Golang
+│   ├── main.go                # Backend entry point
+│   ├── models/                # Data models for MongoDB
+│   └── ...                    # Other backend files
+└── frontend/                  # Frontend code in React
+    ├── src/                   # React source code
+    ├── public/                # Public static files
+    └── ...                    # Other frontend files
 ```
-## Contribuindo
-1. Faça um fork do projeto
-2. Crie uma branch para a sua feature (git checkout -b feature/nova-feature)
-3. Faça o commit das suas alterações (git commit -m 'Adiciona nova feature')
-4. Envie o código para a sua branch (git push origin feature/nova-feature)
-5. Abra um Pull Request
+## Contributing
+Contributions are welcome! Follow the steps below to contribute:
+1. Fork the project
+2. Create a branch for your feature (git checkout -b feature/new-feature)
+3. Commit your changes (git commit -m 'Add new feature')
+4. Push the code to your branch (git push origin feature/new-feature)
+5. Open a Pull Request
 
 ## License
-Distribuído sob a licença MIT. Veja LICENSE para mais informações.
+Distributed under the MIT License. See LICENSE for more information.
 
 ## Contact
 Allan Bruno - allanbruno@gmail.com
 
-Link do Projeto: https://github.com/allanbrunobr/url-shortener
+Project Link: https://github.com/allanbrunobr/url-shortener
 
